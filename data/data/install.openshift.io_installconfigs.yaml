@@ -4876,7 +4876,6 @@ spec:
                     items:
                       type: string
                     type: array
-                    uniqueItems: true
                   apiVIP:
                     description: |-
                       DeprecatedAPIVIP is the VIP to use for internal API communication
@@ -4893,7 +4892,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   bootstrapExternalStaticDNS:
                     description: |-
                       BootstrapExternalStaticDNS is the static network DNS of the bootstrap node.
@@ -5075,7 +5073,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   libvirtURI:
                     default: qemu:///system
                     description: |-
@@ -5664,7 +5661,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   clusterOSImage:
                     description: ClusterOSImage overrides the url provided in rhcos.json
                       to download the RHCOS Image.
@@ -6052,7 +6048,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   loadBalancer:
                     description: |-
                       LoadBalancer defines how the load balancer used by the cluster is configured.
@@ -6202,7 +6197,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   cloud:
                     description: Cloud is the name of OpenStack cloud to use from
                       clouds.yaml.
@@ -6378,7 +6372,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   lbFloatingIP:
                     description: |-
                       LbFloatingIP is the IP address of an available floating IP in your OpenStack cluster
@@ -6481,7 +6474,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   defaultMachinePlatform:
                     description: |-
                       DefaultMachinePlatform is the default configuration used when
@@ -6605,7 +6597,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   loadBalancer:
                     description: |-
                       LoadBalancer defines how the load balancer used by the cluster is configured.
@@ -6816,7 +6807,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   cluster:
                     description: |-
                       Cluster is the name of the cluster virtual machines will be cloned into.
@@ -7164,7 +7154,6 @@ spec:
                       type: string
                     maxItems: 2
                     type: array
-                    uniqueItems: true
                   loadBalancer:
                     description: |-
                       LoadBalancer defines how the load balancer used by the cluster is configured.
